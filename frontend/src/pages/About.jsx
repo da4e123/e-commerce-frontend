@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from '/src/components/Title'
-import NewsletterBox from '/src/components/NewsletterBox'
+import Title from '../components/Title'
+import NewsletterBox from '../components/NewsletterBox'
 
 const About = () => {
   return (

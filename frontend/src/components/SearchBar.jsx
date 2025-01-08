@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useContext } from 'react';
-import { ShopContext } from '../context/shopContext';
-import assets from '../assets/assets';
+import { ShopContext } from '/src/context/shopContext';
+import assets from '/src/assets/assets';
 import { useLocation } from 'react-router-dom';
 import {useState} from 'react'
 

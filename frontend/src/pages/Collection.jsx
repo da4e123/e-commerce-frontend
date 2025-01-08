@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { ShopContext } from '../context/shopContext'; 
-import assets from '../assets/assets';
-import Title from '../components/Title';
-import ProductItem from '../components/ProductItem';
+import { ShopContext } from '/src/context/shopContext'; 
+import assets from '/src/assets/assets';
+import Title from '/src/components/Title';
+import ProductItem from '/src/components/ProductItem';
 
 
 const Collection = () => {

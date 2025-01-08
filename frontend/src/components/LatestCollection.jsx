@@ -1,8 +1,8 @@
 import React from 'react'
 import { useContext } from 'react'
-import { ShopContext } from '../context/shopContext'
-import Title from './Title'
-import ProductItem from './ProductItem'
+import { ShopContext } from '/src/context/shopContext'
+import Title from '/src/components/Title'
+import ProductItem from '/src/components/ProductItem'
 import { useState } from 'react'
 import { useEffect } from 'react'
 

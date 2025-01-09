@@ -18,7 +18,7 @@ const Contact = () => {
           <p className='text-gray-500'>02 3099 777</p>
           <p className='text-gray-500'>Monday - Friday from 09:00 to 17:00</p>
           <p className='text-gray-500'>Saturday 09:00 to 16:00</p>
-          <p className='font-semibold text-xl text-gray-600'>Carrers at Forever</p>
+          <p className='font-semibold text-xl text-gray-600'>Carrers at SportXtreme</p>
           <p className='text-gray-500'>Learn more about our terms and job openings.</p>
           <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500 '>Explore Jobs</button>
 

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { ShopContext } from '../context/shopContext';
 import assets from '../assets/assets';
 import RelatedProducts from '../components/RelatedProducts';
+import NewsletterBox from '../components/NewsletterBox';
 
 const Product = () => {
 
@@ -104,6 +105,7 @@ const Product = () => {
       {/*  Display related products*/}
 
       <RelatedProducts category={productData.category} subCategory={productData.subCategory}/>
+      <NewsletterBox />
 
     </div>
   ) : <div className='opacity-0'>

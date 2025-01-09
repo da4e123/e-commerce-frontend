@@ -1,8 +1,8 @@
-import { createContext, useEffect } from 'react';
+import { createContext, useEffect, useState } from 'react';
 import {products} from '../assets/assets';
-import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
+ 
 
 export const ShopContext = createContext();
 
@@ -23,7 +23,7 @@ const ShopContextProvider = (props) => {
     const addToCart = async (itemId, size) => {
 
         if(!size) {
-            toast.error('Select Product Size');
+            toast.error('Select Product Size ');
             return;
         }
 

@@ -12,7 +12,7 @@ const Orders = () => {
 
       <div>
         {
-          products.slice(1,4).map((item,index) =>(
+          products.slice(1,2).map((item,index) =>(
             <div key={index} className='py-4 border-t border-b text-gray-700 flex flex-col md:flex-row md:items-center md:justify-between gap-4'>
               <div className='flex items-start gap-6 text-sm'>
                   <img className='w-16 sm:w-20'src={item.image[0]} alt="" />
@@ -20,8 +20,8 @@ const Orders = () => {
                     <p className='sm:text-base font-medium'>{item.name}</p>
                     <div className='flex items-center gap-3 mt-2 text-base text-gray-700'>
                       <p className='text-lg'>{currency} {item.price}</p>
-                      <p>Quantity: {item.quantity}</p>
-                      <p>Size: {item.size}</p>
+                      <p>Quantity: 2</p>
+                      <p>Size: L</p>
                     </div>
                     <p className='mt-2'>Date: <span className='text-gray-400'>05, Jan, 2025</span></p>
                   </div>
